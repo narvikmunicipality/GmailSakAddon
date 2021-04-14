@@ -1,0 +1,6 @@
+node_modules/
+build/generated/bundled.js
+tools/**
+!tools/packages.config
+build/publish/
+.clasp.json

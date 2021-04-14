@@ -1,0 +1,15 @@
+{
+  "xspec_dir": "spec",
+  "xspec_files": [
+    "**/*[sS]pec.js"
+  ],
+  "spec_dir": "build/generated",
+  "spec_files": [
+    "bundled.js"
+  ],
+  "helpers": [
+    "helpers/**/*.js"
+  ],
+  "stopSpecOnExpectationFailure": false,  
+  "random": true
+}

@@ -1,0 +1,30 @@
+{
+    "oauthScopes": [
+        "https://www.googleapis.com/auth/gmail.addons.execute",
+        "https://www.googleapis.com/auth/gmail.readonly",
+        "https://www.googleapis.com/auth/script.external_request"
+    ],
+    "urlFetchWhitelist": [
+        "https://example.com/prod/archiveid",
+        "https://example.com/prod/address",
+        "https://example.com/prod/attachments",
+        "https://example.com/prod/lastarchiveid",
+        "https://example.com/prod/import",
+        "https://example.com/prod/importlog",
+        "https://example.com/prod/departmentusers",
+        "https://example.com/prod/websakcheck"
+    ],
+    "gmail": {
+        "name": "Gmailsak",
+        "logoUrl": "https://example.com/prod/images/gmailsak-20x20.png",
+        "contextualTriggers": [
+            {
+                "unconditional": {},
+                "onTriggerFunction": "buildAddOn"
+            }
+        ],
+        "primaryColor": "#4285F4",
+        "secondaryColor": "#4285F4",
+        "version": "TRUSTED_TESTER_V2"
+    }
+}

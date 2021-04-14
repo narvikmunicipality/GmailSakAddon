@@ -1,0 +1,28 @@
+{
+  "name": "gmailsakgmailaddon",
+  "version": "1.2.0",
+  "description": "Gmail Addon that imports mails to Acos Websak",
+  "main": "src/Main.js",
+  "scripts": {
+    "test": "jasmine",
+    "pretest": "node ./build/bundle.js",
+    "posttest": "del .\\build\\generated\\bundled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/narvikmunicipality/GmailSakAddOn.git"
+  },
+  "keywords": [
+    "gmail",
+    "acos",
+    "websak"
+  ],
+  "author": "Bjørn-Tore Lilleng/Tim Skau",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "concat": "^1.0.3",
+    "glob": "^7.1.6",
+    "jasmine": "^3.5.0",
+    "rewire": "^3.0.2"
+  }
+}
